@@ -1,0 +1,370 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.15)  17 SEP 2019 19:37
+entering extended mode
+**"./Ev_1_5_caracteristicas_de_los_convertidores_de_potencia_CA-CD, CD-CA, CA-C
+A, CD-CD.tex"
+
+("Ev_1_5_caracteristicas_de_los_convertidores_de_potencia_CA-CD, CD-CA, CA-CA, 
+CD-CD.tex"
+LaTeX2e <2018-12-01>
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.s
+ty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
+"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.s
+ty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphi
+cs.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
+.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("Ev_1_5_caracteristicas_de_los_convertidores_de_potencia_CA-CD, CD-CA, CA-CA, 
+CD-CD.aux")
+\openout1 = `"Ev_1_5_caracteristicas_de_los_convertidores_de_potencia_CA-CD, CD
+-CA, CA-CA, CD-CD.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
+f.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen105
+\scratchbox=\box27
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen106
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks18
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-b
+ase.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarer
+r.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty
+"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefine
+keys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.
+sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.
+sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetkey
+s.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmds
+.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluatex
+.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexcm
+ds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.st
+y"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+
+Overfull \hbox (28.39502pt too wide) in paragraph at lines 11--11
+ [][] 
+ []
+
+[1
+
+{C:/Users/user/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+<tiristor.jpg, id=14, 683.55376pt x 227.34938pt>
+File: tiristor.jpg Graphic file (type jpg)
+<use tiristor.jpg>
+Package pdftex.def Info: tiristor.jpg  used on input line 52.
+(pdftex.def)             Requested size: 341.43306pt x 113.56339pt.
+<images.png, id=15, 297.11pt x 170.6375pt>
+File: images.png Graphic file (type png)
+<use images.png>
+Package pdftex.def Info: images.png  used on input line 57.
+(pdftex.def)             Requested size: 227.62204pt x 130.73512pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+
+ []
+
+[2 <./tiristor.jpg> <./images.png>]
+<completa.png, id=20, 341.275pt x 148.555pt>
+File: completa.png Graphic file (type png)
+<use completa.png>
+Package pdftex.def Info: completa.png  used on input line 62.
+(pdftex.def)             Requested size: 341.27415pt x 148.55463pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+<vsi.jpg, id=21, 332.24126pt x 152.57pt>
+File: vsi.jpg Graphic file (type jpg)
+<use vsi.jpg>
+Package pdftex.def Info: vsi.jpg  used on input line 75.
+(pdftex.def)             Requested size: 332.24043pt x 152.56963pt.
+<descarga.jpg, id=22, 321.2pt x 158.5925pt>
+File: descarga.jpg Graphic file (type jpg)
+<use descarga.jpg>
+Package pdftex.def Info: descarga.jpg  used on input line 80.
+(pdftex.def)             Requested size: 321.19922pt x 158.59209pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--82
+
+ []
+
+[3 <./completa.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+<Elevador.png, id=27, 382.42876pt x 132.495pt>
+File: Elevador.png Graphic file (type png)
+<use Elevador.png>
+Package pdftex.def Info: Elevador.png  used on input line 92.
+(pdftex.def)             Requested size: 382.42781pt x 132.49466pt.
+<REDUCTOR-ELEVADOR.png, id=28, 382.42876pt x 132.495pt>
+File: REDUCTOR-ELEVADOR.png Graphic file (type png)
+<use REDUCTOR-ELEVADOR.png>
+Package pdftex.def Info: REDUCTOR-ELEVADOR.png  used on input line 99.
+(pdftex.def)             Requested size: 382.42781pt x 132.49466pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--101
+
+ []
+
+[4 <./vsi.jpg> <./descarga.jpg>] [5 <./Elevador.png> <./REDUCTOR-ELEVADOR.png>]
+
+LaTeX Warning: File `images (1).png' not found on input line 109.
+
+<images (1).png, id=37, 331.2375pt x 153.57375pt>
+File: images (1).png Graphic file (type png)
+<use images (1).png>
+Package pdftex.def Info: images (1).png  used on input line 109.
+(pdftex.def)             Requested size: 331.23668pt x 153.57336pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+<bidireccional.png, id=38, 496.85625pt x 555.07375pt>
+File: bidireccional.png Graphic file (type png)
+<use bidireccional.png>
+Package pdftex.def Info: bidireccional.png  used on input line 118.
+(pdftex.def)             Requested size: 496.85503pt x 555.07237pt.
+
+Overfull \hbox (106.85503pt too wide) in paragraph at lines 118--119
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 28.16978pt on input line 119.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--120
+
+ []
+
+[6 <./images (1).png>] [7 <./bidireccional.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 121--129
+
+ []
+
+[8]
+("Ev_1_5_caracteristicas_de_los_convertidores_de_potencia_CA-CD, CD-CA, CA-CA, 
+CD-CD.aux") ) 
+Here is how much of TeX's memory you used:
+ 1730 strings out of 492895
+ 25277 string characters out of 3124202
+ 85080 words of memory out of 3000000
+ 5639 multiletter control sequences out of 15000+200000
+ 10504 words of font info for 26 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,7n,25p,723b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\user\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecrm2488.pk> <C:\Users\user\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\user\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\user\AppData\Local\MiKTeX\2.
+9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\user\AppData\Local\
+MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\user\AppDa
+ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/us
+er/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+
+Output written on "Ev_1_5_caracteristicas_de_los_convertidores_de_potencia_CA-C
+D, CD-CA, CA-CA, CD-CD.pdf" (9 pages, 158473 bytes).
+PDF statistics:
+ 254 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+
