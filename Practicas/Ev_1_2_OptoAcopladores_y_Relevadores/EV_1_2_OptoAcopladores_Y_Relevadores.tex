@@ -1,0 +1,134 @@
+\documentclass[12pt]{report}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\begin{document}
+ 
+{\Huge Optoacopladores y relevadores}\\
+\includegraphics[scale=1]{upzmg.jpg} \\
+{\Huge Enesto Alonso Partida López\\ Universidad Politecnica De La Zona Metropolitana De Guadalajara\\ Mecatronica 4 A\\ Septiembre-diciembre 2019}
+\date{3 de octubre 2019}
+ 
+\newpage
+
+{\huge \textbf{INTRODUCCION:}\\}\\
+
+
+{\large Optoacoplador conocido como optoaislador o aislador acoplado opticamente que
+es dispositivo de emision y recepcion que funciona como interruptor activos mediante
+luz emitida por diodo led que satura al componente optoelectronico.
+relevador dispositivo electromagnetico que funciona como interruptor controlado
+por el circuito controlado electronicamente, esto por medio de bobina y
+electroiman, este enciende un juego que permite abrir o cerrar otros circuitos
+electronicosindependientes, el PLC son utilizados en la industria diseñados para
+multiples señales de entrada y salidas, rangos de temperatura ampliados, inmunidad
+al ruido electrico, resistentes a la vibracion y al impacto y estos vienen
+siendo sistemas de tiempo real..}\\
+ 
+
+{\huge \textbf{OBJETIVO}\\}\\
+
+
+{\large Armado del pototipado de una PLC, con placas de arduino con cuatro placas de
+esta misma para observar el funcionamiento real de un PLC registrando salidas
+de voltaje de 5 V. y 12 V. en cada salida de nuestro circuito.}\\
+
+
+
+{\huge \textbf{MARCO TEORICO}\\}\\
+
+
+{\large PLC es componente basico en el mundo de automatizaciones industriales. las
+aplicaciones industriales hizo que el sistema PLC fueran costosos, para el comprar
+o reparar, arduino es especie de controlador programable universal, aunque
+es solo nucleo en cualquier cosa, en todo caso construyendo aplicaciones generales,
+con un hardware externo, especialmente las interfaces capaces de transferir
+señales a sensores con direccion a los actuadores asi reduciendo la EMI que 
+dañe el microcontrolador o el software\\}\\
+
+
+{\huge \textbf{MATERIALES}\\}\\
+
+
+\begin{enumerate}
+\item Protoboard
+\item Placa de arduino
+\item Relevadores
+\item Resistencias
+\item Optoacopladores
+\item 2N2222
+\item Fuente de Voltaje
+\item Leds
+\item Push Botton
+\item Clabe Para Protoboard
+\item Caimanes
+\end{enumerate}
+
+
+{\huge \textbf{Desarrollo}\\}\\
+{\large Procedimos armar el circuito como se muestra en la imangen 1. que se encuentra
+en la carpeta de este documento,
+como observamos ahi dos resistencias sin saber su valor es varioable debido
+al L1823, que este corriente soporte, procedimos a aplicar la ley de ohm que
+es R = V/I, la corrientees la cual es 80mA. nuestro voltaje es el marcado en
+el circuito, el resultado fue de 150 ohms. por desicion decidimos colocar una
+resistencia de 220 ohms. para evitar sobre calentamiento en la resistencia o que
+dañe alguno de nuestros componentes.
+despues procedimos a medir nuestro 2N2222A ya que este cambia su valor
+de HFE, debido para como muestra el datashep ya conociendo este resultado
+medido procedemos a calcular el valor de nuestra resistencia con la siguiente
+operacion R = (Vin - 0.6)(HFE)/ A. el resultado de nuestra operacion fue de
+3950 ohms lo cual equivale a una resistencia de 4 k. y todo esto va conectado a
+la tierra y este paso a las entradas de la bobinas posteriormente se conectaron
+en paralelo dos diodos y una resistencia la cual este fue un led para verificar la
+cantidad luminosa que este generaba. procedimos a colocar los cables machos
+al aire para esperar el codigo de compilacion que tendrianuestro arduino, para
+la verifacacion de este en la interfaz de entrada se tiene que registra 12 V. en
+la salida de 5 V. y que nuestro relevador haga un pequeño sonido de click y
+con esto sabremos que todo quedo bien colocado en nuestro protoboard, con
+quede el resultado de estos voltajes de 12 V. y 5 V. seria nuestro resultados que
+esperamos obtener}\\
+
+{\huge \textbf{Resultados obtenidos}\\}\\
+{\large Esta fue nuestra primera operacion para calcular el primer valor de nuestra
+resistencia que viene despues del push button:\\
+R = 12 V/ 80mA = 150 ohm\\
+la segunda operacion para calcular nuestra segunda resistencia que esta colocada
+en la salida de nuestro arduino utilizamos la siguiente operacion:\\
+R = (Vin - 0.6) (HFE)/12 A.\\
+El HFE lo obtuvimos mediante la medidcion del 2N2222A. en un multimetro
+con entrada para la medicion de transistores. asi fue como conocimos el valor
+de nuestro 2N2222A.\\
+el cual fue nuestra operacion: R= (12 v - 0.6)(250 HFE) / 12 A= 3950}\\
+{\huge \textbf{conclusion}\\}\\
+{\large En la practica previamente realizada, aprendidos el funcionamiento de los optoacopladores
+el cual es un circuito integrado por un led el cual acciona el paso
+de corriente del otro extremo, y los relevadores es un componente que esta integrado
+por una bobina que acciona un movimiento el cual perimte el paso de
+la corriente. ademas se logro el cometidodespues de muchos intentos el cual era
+que mediante una programacion en una placa de arduino, esta mandara la señal de cuando un boton permitia el paso de corriente por todo el circuito, lo mas
+dificil fue la programacion ya que habia muchas maneras de realizar mas sin embargo
+no todos el circuito, lo mas dificil fue la programcion funcionaron, otros
+problemas fueron las resistencias de los valores poco comunes, pero como se dijo
+anteriormente despues de varios intentos se logro realizar en pocas palabras un
+PLC casero completamente funcional, el cual marcaria cuando esta funcionando
+correctamente.}
+\newpage
+{\huge \textbf{Bibliografia:}\\}\\
+@online{Electronica Unicrom,
+author = {Luis González López},
+title = {Amplificadores de Potencia: clasificación, clase A, B, AB, C},
+year = {2016},
+url = {https://unicrom.com/amplificadores-de-potencia-clasificacion/},
+OPTsubtitle = {Amplificadores clase A},
+OPTlanguage = {Español},
+OPTversion = {1},
+OPTdate = {21},
+OPTmonth = {6},
+OPTurldate = {https://unicrom.com/amplificadores-de-potencia-clasificacion/},
+}
+
+
+\end{document}
