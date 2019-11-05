@@ -1,0 +1,97 @@
+\documentclass[12pt]{report}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\begin{document}
+ 
+\begin{center}
+{\Huge Construir una amplificacion con conexion Darlington}
+\end{center}
+\begin{center}
+\includegraphics[scale=1]{../../../../Downloads/upzmg.jpg} 
+\end{center} 
+{\Huge Enesto Alonso Partida López\\Osmar de Jesus Cruz Ramirez\\ Universidad Politecnica De La Zona Metropolitana De Guadalajara\\ Mecatronica 4 A\\ Septiembre-diciembre 2019}
+\date{ 5 de noviembre  2019}
+ 
+\newpage
+
+{\huge \textbf{INTRODUCCION:}\\}\\
+
+
+{\large Mediante la utilización de los circuitos conocidos como Darlington, se pretende accionar un relevador, el cual estará conectado a una placa Arduino el cual será accionado por un  Push botón, el cual al ser presionado mandara una señal  al Arduino el cual accionar el relevador.}\\
+ 
+
+{\huge \textbf{OBJETIVO}\\}\\
+
+
+{\large Lograr que el Darlington accione al relevador cuando este resiva una corriente proveniente de la placa arduino}\\
+
+
+
+{\huge \textbf{MARCO TEORICO}\\}\\
+
+
+{\large Transistor Darlington.\\ Frecuentemente llamado amplificador compuesto. Es una conexión muy popular de dos transistores de unión bipolar para funcionar como un solo transistor “superbeta”.La principal característica de la conexión Darlington es que el transistor compuesto actúa como una sola unidad con una ganancia de corriente que es el producto de las ganancias de corriente de dos transistores por separados.\\\\Esta configuración sirve para que el dispositivo sea capaz de proporcionar una gran ganancia de corriente y, al poder estar todo integrado, requiere menos espacio que dos transistores normales en la misma configuración. La ganancia total del Darlington es el producto de la ganancia de los transistores individuales.
+\\
+Un dispositivo típico tiene una ganancia en corriente de 1000 o superior. También tiene un mayor desplazamiento de fase en altas frecuencias que un único transistor, de ahí que pueda convertirse fácilmente en inestable. La tensión base-emisor también es mayor, siendo la suma de ambas tensiones base-emisor, y para transistores de silicio es superior a 1.2V. La beta de un transistor o par darlington se halla multiplicando las de los transistores individuales. la intensidad del colector se halla multiplicando la intensidad de la base por la beta total.}
+\begin{flushright}
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=1]{../../../../Downloads/descragas/tip.png}
+\caption{Transistor Darlington}
+\end{figure}
+
+\end{flushright}
+\newpage
+
+{\huge \textbf{MATERIALES}\\}\\
+
+
+\begin{enumerate}
+\item Protoboard
+\item Push boton
+\item Optoacopladores
+\item Resistencias
+\item Placa Arduino
+\item Diodo 1N4001
+\item Fuente de Voltaje
+\item Clabe Para Protoboard
+\item Caimanes
+\item Transistor Darlington
+\item Relevador
+\item Led
+\item Foto resistencia  
+\end{enumerate}
+
+
+{\huge \textbf{Desarrollo}\\}\\
+{\large \begin{enumerate}
+\item Se comenzará con el armado de la primera parte del circuito el cual consta de un Push botón, una resistencia y un optoacoplador el cual estará conectado a una carga de 5v.
+\item Posterior mente será necesario realizar la conexión con el Arduino, para pasar a la segunda parte del circuito el cual llevará una relevadora, un par de resistencias, un transistor Darlington, junto con un diodo led y un diodo rectificador.
+\item Una vez que las dos partes del circuito se encuentran armadas, es necesario que cada circuito sea conectado a la placa Arduino, la cual se encargara de la programación y acción del circuito.
+\item Una vez que todo el circuito se encuentre unido es necesario pasar a la prueba para lo cual es necesario presionar solo el botón para que el relevador se accione.
+
+\end{enumerate}}
+
+{\huge \textbf{Resultados obtenidos}\\}\\
+{\large Se  logro activar el relevador con el transistor Darlington o bien a juntar dos 2N2222 el cual funciona de la misma manera, pero es más cómodo el Darlington debido a que junta estos dos componentes en uno solo, aunque el problema es calcular la resistencia debido a que cada fabricante maneja modelos de Darlington distintos con parámetro  distintos, pero una vez sabiendo eso es más sencillo, y como el circuito en si se ha armado en varias ocasiones se convierte en algo fácil para armar.}\\
+
+
+{\huge \textbf{Conclusión}\\}\\
+{\large Como  el circuito se ha armado en varias ocasiones fue más sencillo realizarlo pero en esta vez con un Darlington, además el único problema que se presento es que los parámetros de cada fabricante es distinto y se tiene que buscar la datasheet correcta para calcular la resistencia, además la programación sigue siendo la misma que la de los primeros circuitos en los cuales se utilizó el Arduino, estos circuitos se encuentran en la industria más que nada en la líneas de producción}
+\newpage
+{\huge \textbf{Bibliografia:}\\}\\
+
+@online{EcuRed,
+author = {Anonimo},
+title = {Transistor Darlington},
+year = {2016},
+url = {https://unicrom.com/diac-diodo-disparo-bidireccional/},
+OPTlanguage = {español},
+
+}
+
+
+\end{document}
